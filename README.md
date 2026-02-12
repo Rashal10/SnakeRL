@@ -68,20 +68,24 @@ python train.py --episodes 1000 --render
 ```
 SnakeRL/
 ├── README.md
+├── .gitignore
 ├── Phase1/
 │   ├── Snake.py
 │   ├── apple.png
-│   └── README.md.txt
+│   └── README.md
 └── Phase2/
     ├── play.py
     ├── train.py
     ├── requirements.txt
+    ├── README.md
     ├── game/
+    │   ├── __init__.py
     │   ├── settings.py
     │   ├── snake_game.py
     │   ├── snake_env.py
     │   └── renderer.py
     ├── rl/
+    │   ├── __init__.py
     │   ├── agent.py
     │   ├── model.py
     │   └── utils.py
